@@ -1,0 +1,5 @@
+userengage.settings:
+ title: 'UserEngage Chat'
+ description: 'Chat settings.'
+ parent: system.admin_config_services
+ route_name: userengage.settings
