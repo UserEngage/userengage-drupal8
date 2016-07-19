@@ -1,4 +1,4 @@
-name: UserEngage Chat
+name: UserEngage
 type: module
 description: Adds UserEngage javascript tracking code.
 package: Utility

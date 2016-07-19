@@ -2,7 +2,7 @@
 
 /**
  * @file
- * Install, update and uninstall functions for the UserEngage Chat module.
+ * Install, update and uninstall functions for the UserEngage module.
  */
 
 function userengage_requirements($phase) {
@@ -11,8 +11,8 @@ function userengage_requirements($phase) {
   if ($phase == 'runtime') {
     if (\Drupal::config('userengage.settings')->get('apiKey', FALSE) == FALSE) {
       $requirements['userengage'] = [
-        'title' => t('UserEngage Chat module'),
-        'description' => t('UserEngage Chat module has not been configured yet. Please configure its settings from the <a href="https://app.userengage.io">UserEngage page</a>.'),
+        'title' => t('UserEngage module'),
+        'description' => t('UserEngage module has not been configured yet. Please configure its settings from the <a href="https://app.userengage.io">UserEngage page</a>.'),
         'severity' => REQUIREMENT_ERROR,
         'value' => t('Not configured'),
       ];

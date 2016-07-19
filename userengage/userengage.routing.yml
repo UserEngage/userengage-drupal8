@@ -2,6 +2,6 @@ userengage.settings:
   path: 'admin/config/services/userengage'
   defaults:
     _form: '\Drupal\userengage\Form\SettingsForm'
-    _title: 'UserEngage Chat'
+    _title: 'UserEngage'
   requirements:
     _permission: 'administer userengage'

@@ -6,8 +6,6 @@
   var name = drupalSettings.userengage.name;
   var email = drupalSettings.userengage.email;
 
-  console.log(drupalSettings);
-
   if (name && email){
     var code = '<script type="text/javascript">'
       + 'window.civchat = {'
